@@ -1,7 +1,7 @@
-var michelin =  require ( ' ./michelin ' );
-var jsonfile =  require ( ' jsonfile ' );
+var michelin = require('./michelin');
+var jsonfile = require('jsonfile');
 
-jsonfile . readFile ( ' output / 1_restaurants_list.json ' , fonction ( err , restaurants ) {
-  // récupère l'adresse de chaque restaurant et écrit un nouveau fichier JSON '2_restaurants_list.json'
-  michelin . getAllAddresses (restaurants);
+jsonfile.readFile('output/1_restaurants_list.json', function (err, restaurants) {
+    //get the address of each restaurant and write a new JSON '2_restaurants_list.json'
+    michelin.getAllAddresses(restaurants);
 });

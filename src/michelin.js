@@ -1,6 +1,7 @@
 var cheerio = require('cheerio');
 var request = require('request');
 var jsonfile = require('jsonfile');
+const file 
 
 //urls of the pages to scrap
 var pagesToScrap = [];
