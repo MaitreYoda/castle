@@ -68,7 +68,7 @@ var fichierJson = [];
             }
         }
         // We write the JSON file
-        fs.writeFileSync("restauHotel.json", JSON.stringify(fichierJson));
+        fs.writeFileSync("output/restauHotel.json", JSON.stringify(fichierJson));
 
 
 
